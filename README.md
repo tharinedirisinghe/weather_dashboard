@@ -65,23 +65,6 @@ https://api.open-meteo.com/v1/forecast?latitude={LAT}&longitude={LON}&current_we
 - Android Studio / VS Code with Flutter extensions
 - Android device or emulator
 
-### Installation
-
-1. **Clone or extract the project**
-   ```bash
-   cd "c:\myFolder\uni\L3S1\wireless\assignment project"
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app**
-   ```bash
-   flutter run
-   ```
-
 ### Dependencies
 
 ```yaml
@@ -115,20 +98,6 @@ lib/
     └── cache_service.dart         # Local storage service
 ```
 
-## 📸 Screenshots
-
-### Online Mode
-![Weather Dashboard - Online](screenshots/online_mode.png)
-*Showing live weather data with temperature, wind speed, and weather code*
-
-### Offline Mode (Cached)
-![Weather Dashboard - Offline](screenshots/offline_mode.png)
-*Displaying cached data when network is unavailable*
-
-### Error Handling
-![Weather Dashboard - Error](screenshots/error_handling.png)
-*User-friendly error message with fallback to cached data*
-
 ## 🎥 Video Demo
 
 A 60-second video demonstration is available showing:
@@ -137,7 +106,7 @@ A 60-second video demonstration is available showing:
 - Enabling Airplane Mode and viewing cached data
 - Error handling demonstration
 
-[Link to video demo]
+Link to video demo: https://dms.uom.lk/s/2yo3kTsQRDQBDEb
 
 ## 🧪 Testing Scenarios
 
@@ -181,15 +150,6 @@ The `CacheService` uses `shared_preferences` to store the last successful weathe
 - Cached data indicator with visual badge
 - Selectable request URL for verification
 
-## 📋 Marking Checklist
-
-- [x] Correct index→coords & shown in UI
-- [x] Working API call & JSON parsing
-- [x] Loading, error handling, and offline cache
-- [x] Clean UI (labels, layout, readability)
-- [x] Report (clear + screenshots + URL)
-- [x] Video demo (≤60s, shows online + cached)
-
 ## 🛠️ Troubleshooting
 
 ### Issue: Dependencies not found
@@ -206,7 +166,7 @@ The `CacheService` uses `shared_preferences` to store the last successful weathe
 
 ## 👨‍💻 Author
 
-**Student Index:** 194174B  
+**Student Index:** 224049K  
 **Course:** L3S1 Wireless  
 **Platform:** Android (Flutter)
 
